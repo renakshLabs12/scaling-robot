@@ -1,0 +1,17 @@
+{
+  "name": "ai-browser-automation",
+  "version": "1.0.0",
+  "description": "AI-powered browser automation with Puter.js + Playwright via GitHub Actions",
+  "main": "playwright-runner.js",
+  "scripts": {
+    "test": "node playwright-runner.js",
+    "install-browsers": "npx playwright install chromium --with-deps"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
